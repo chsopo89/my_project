@@ -1,0 +1,50 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8ddf7"/>
+      <stop offset="60%" stop-color="#daeffe"/>
+      <stop offset="100%" stop-color="#eef8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="390" height="844" fill="url(#sky)"/>
+
+  <!-- 구름 1 (왼쪽 상단 큰 구름) -->
+  <g opacity="0.85">
+    <rect x="20" y="100" width="140" height="48" rx="24" fill="white"/>
+    <circle cx="62" cy="100" r="34" fill="white"/>
+    <circle cx="110" cy="92" r="42" fill="white"/>
+    <circle cx="148" cy="104" r="28" fill="white"/>
+  </g>
+
+  <!-- 구름 2 (오른쪽 상단 작은 구름) -->
+  <g opacity="0.7">
+    <rect x="240" y="160" width="110" height="36" rx="18" fill="white"/>
+    <circle cx="272" cy="160" r="26" fill="white"/>
+    <circle cx="308" cy="154" r="32" fill="white"/>
+    <circle cx="342" cy="162" r="20" fill="white"/>
+  </g>
+
+  <!-- 구름 3 (왼쪽 중단) -->
+  <g opacity="0.5">
+    <rect x="-10" y="300" width="160" height="44" rx="22" fill="white"/>
+    <circle cx="38" cy="300" r="32" fill="white"/>
+    <circle cx="88" cy="292" r="40" fill="white"/>
+    <circle cx="132" cy="302" r="26" fill="white"/>
+  </g>
+
+  <!-- 구름 4 (오른쪽 중단 작은) -->
+  <g opacity="0.4">
+    <rect x="280" y="380" width="90" height="30" rx="15" fill="white"/>
+    <circle cx="306" cy="380" r="22" fill="white"/>
+    <circle cx="336" cy="374" r="28" fill="white"/>
+    <circle cx="362" cy="382" r="18" fill="white"/>
+  </g>
+
+  <!-- 구름 5 (하단 왼쪽) -->
+  <g opacity="0.3">
+    <rect x="10" y="580" width="120" height="36" rx="18" fill="white"/>
+    <circle cx="46" cy="580" r="28" fill="white"/>
+    <circle cx="86" cy="573" r="34" fill="white"/>
+    <circle cx="122" cy="581" r="22" fill="white"/>
+  </g>
+</svg>

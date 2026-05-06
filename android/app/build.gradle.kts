@@ -13,6 +13,8 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        // flutter_local_notifications의 스케줄 API에 필요한 desugaring 설정입니다.
+        isCoreLibraryDesugaringEnabled = true
     }
 
     kotlinOptions {
@@ -41,4 +43,9 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    // Java 8+ 시간 API를 하위 Android에서도 사용할 수 있게 합니다.
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 }

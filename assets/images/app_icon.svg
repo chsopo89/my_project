@@ -1,0 +1,14 @@
+<svg width="1024" height="1024" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="100" height="100" rx="22" fill="#b8ddf7"/>
+  <!-- 작은 구름 (뒤) -->
+  <circle cx="32" cy="58" r="10" fill="white" opacity="0.6"/>
+  <circle cx="44" cy="53" r="13" fill="white" opacity="0.6"/>
+  <circle cx="56" cy="58" r="10" fill="white" opacity="0.6"/>
+  <rect x="28" y="58" width="32" height="10" fill="white" opacity="0.6"/>
+  <!-- 큰 구름 (앞) -->
+  <circle cx="40" cy="57" r="14" fill="white"/>
+  <circle cx="56" cy="50" r="18" fill="white"/>
+  <circle cx="72" cy="57" r="13" fill="white"/>
+  <rect x="34" y="57" width="44" height="16" fill="white"/>
+</svg>
